@@ -12,3 +12,12 @@
           EX20) Write an alert with the name of the author every time the user hover with the mouse over an author name
       */
 
+// 1
+const addNewLink = function () {
+    let navbarId = document.getElementById("page-nav")
+    let createLink = document.createElement("a")
+    createLink.innerText = "Math"
+    navbarId.appendChild(createLink)
+}
+let output1 = addNewLink()
+// console.log(output1)

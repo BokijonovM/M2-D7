@@ -48,5 +48,8 @@ nav a:nth-child(even) {
 .blog-footer p:nth-child(2) a {
     background-color: yellowgreen
 }
-
 /*EX10*/
+footer{
+    background-color: black;
+    color: white
+}

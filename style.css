@@ -33,8 +33,11 @@ nav a:nth-child(even) {
     font-size: larger;
 }
 /*EX6*/
+.blog-post:last-of-type {
+    font-size: x-large;
+}
+/*EX7*/
 
-/*EX1*/
-/*EX1*/
-/*EX1*/
-/*EX1*/
+/*EX8*/
+/*EX9*/
+/*EX10*/

@@ -49,3 +49,9 @@ const changeHeadingSize = function () {
     document.querySelectorAll('.jumbotron div')[0].classList.remove('col-md-6')
 }
 // console.log(changeHeadingSize())
+
+// 6
+const removeIcon = function () {
+    document.getElementById("search-icon").style.display = "none"
+}
+// console.log(removeIcon())

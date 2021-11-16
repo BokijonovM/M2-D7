@@ -30,8 +30,15 @@ const changeTitle = function () {
 // console.log(changeTitle())
 
 // 3
+// querySelectorAll is not work
 const changeBackgroundJumbotron = function () {
     let jumbotron = document.querySelector(".jumbotron")
     jumbotron.setAttribute(`style`, `background-color: #551122 !important`)
 }
-console.log(changeBackgroundJumbotron())
+// console.log(changeBackgroundJumbotron())
+
+// 4
+const js4 = function () {
+    document.querySelectorAll('.blog-sidebar ol')[1].innerHTML = ''
+}
+// console.log(js4())

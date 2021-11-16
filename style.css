@@ -12,13 +12,29 @@
         */
 
 
-h1{}
+.jumbotron h1{
+    font-size: xx-small
+}
 
-
+/*EX2*/
+nav>*{
+    background-color: yellowgreen;
+}
+/*EX3*/
+.jumbotron a{
+    font-size: x-large;
+}
+/*EX4*/
+.blog-post:first-of-type {
+    background-color: greenyellow;
+}
+/*EX5*/
 nav a:nth-child(even) {
-    background-color: darkred !important;
+    font-size: larger;
 }
-nav a:nth-child(odd) {
-    background-color: darkred !important;
-}
+/*EX6*/
 
+/*EX1*/
+/*EX1*/
+/*EX1*/
+/*EX1*/

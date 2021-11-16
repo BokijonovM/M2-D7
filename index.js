@@ -57,9 +57,24 @@ const removeIcon = function () {
 // console.log(removeIcon())
 
 // 7
+// searched solution from google
 const js7 = function () {
     let allPFromEachPost = document.querySelectorAll(`.blog-post h2 + p +p`)
 
     allPFromEachPost.forEach(p => p.innerText = p.innerText.substring(0, 50) + '...')
 }
 // console.log(js7())
+
+// 8
+const newPost = function (e) {
+    e.preventDefault();
+
+    // new elements
+    let newDiv = document.createElement("div")
+    let newTitle = document.createElement("h1")
+
+    let insertReferencePoint = document.querySelector(".blog-pagination")
+    insertReferencePoint.insertAdjacentElement('beforebegin', newDiv, newTitle)
+}
+
+// console.log(newPost())

@@ -21,3 +21,10 @@ const addNewLink = function () {
 }
 let output1 = addNewLink()
 // console.log(output1)
+
+// 2
+const changeTitle = function () {
+    let getTitle = document.getElementById("title-page")
+    getTitle.style.backgroundColor = " green"
+}
+console.log(changeTitle())

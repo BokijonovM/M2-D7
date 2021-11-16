@@ -92,5 +92,4 @@ AllAuthorsLinks.forEach(authorLink => authorLink.addEventListener('mouseover',
         alert(`Hello I'm ${event.target.innerText}`)
     }
 
-)
-)
+))

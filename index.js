@@ -27,4 +27,11 @@ const changeTitle = function () {
     let getTitle = document.getElementById("title-page")
     getTitle.style.backgroundColor = " green"
 }
-console.log(changeTitle())
+// console.log(changeTitle())
+
+// 3
+const changeBackgroundJumbotron = function () {
+    let jumbotron = document.querySelector(".jumbotron")
+    jumbotron.setAttribute(`style`, `background-color: #551122 !important`)
+}
+console.log(changeBackgroundJumbotron())

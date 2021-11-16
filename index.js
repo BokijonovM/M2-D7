@@ -77,4 +77,20 @@ const newPost = function (e) {
     insertReferencePoint.insertAdjacentElement('beforebegin', newDiv, newTitle)
 }
 
-// console.log(newPost())
+// 9
+function removeLastPost(e) {
+    e.preventDefault()
+    let lastBlogPost = document.querySelectorAll('.blog-main div')
+    lastBlogPost[lastBlogPost.length - 1].remove()
+
+}
+// 10
+let AllAuthorsLinks = document.querySelectorAll(`.blog-post-meta a`)
+
+AllAuthorsLinks.forEach(authorLink => authorLink.addEventListener('mouseover',
+    function (event) {
+        alert(`Hello I'm ${event.target.innerText}`)
+    }
+
+)
+)

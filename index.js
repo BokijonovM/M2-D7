@@ -42,3 +42,10 @@ const js4 = function () {
     document.querySelectorAll('.blog-sidebar ol')[1].innerHTML = ''
 }
 // console.log(js4())
+
+// 5
+// it will affect if you remove task 1 of CSS
+const changeHeadingSize = function () {
+    document.querySelectorAll('.jumbotron div')[0].classList.remove('col-md-6')
+}
+// console.log(changeHeadingSize())

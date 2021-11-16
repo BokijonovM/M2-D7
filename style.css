@@ -37,7 +37,13 @@ nav a:nth-child(even) {
     font-size: x-large;
 }
 /*EX7*/
-
+.list-unstyled.mb-0>* {
+    font-size: larger;
+}
 /*EX8*/
+.second-post-author>a{
+    background-color: yellowgreen;
+}
 /*EX9*/
+
 /*EX10*/

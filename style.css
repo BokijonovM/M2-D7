@@ -10,3 +10,15 @@
             EX9) Write a selector to target the "back to top" link     #### EXTRA Try doing it without targeting the footer element directly
             EX10) Write a selector to target the footer
         */
+
+
+h1{}
+
+
+nav a:nth-child(even) {
+    background-color: darkred !important;
+}
+nav a:nth-child(odd) {
+    background-color: darkred !important;
+}
+
